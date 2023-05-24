@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Caishen (2.2.1)
+  - Monri (1.4.1):
+    - Alamofire (~> 4.0)
+    - Caishen
+
+DEPENDENCIES:
+  - Monri
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Caishen
+    - Monri
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Caishen: 903d1d567b010b28217acd38e438b5917623cfef
+  Monri: fee000c0d6d3793229b52eb6dcdb32f984b004bf
+
+PODFILE CHECKSUM: e8d0bc16dec14b8b2432d377abd97106e6e43f42
+
+COCOAPODS: 1.12.1

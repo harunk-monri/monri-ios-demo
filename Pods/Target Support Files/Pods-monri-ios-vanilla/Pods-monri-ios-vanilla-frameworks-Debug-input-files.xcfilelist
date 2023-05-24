@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-monri-ios-vanilla/Pods-monri-ios-vanilla-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Caishen/Caishen.framework
+${BUILT_PRODUCTS_DIR}/Monri/Monri.framework

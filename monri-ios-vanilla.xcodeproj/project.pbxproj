@@ -13,6 +13,10 @@
 		1A9315F12A1E29280099BA04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9315EF2A1E29280099BA04 /* Main.storyboard */; };
 		1A9315F32A1E292A0099BA04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9315F22A1E292A0099BA04 /* Assets.xcassets */; };
 		1A9315F62A1E292A0099BA04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9315F42A1E292A0099BA04 /* LaunchScreen.storyboard */; };
+		1A9315FF2A1E38420099BA04 /* OrdersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9315FE2A1E38420099BA04 /* OrdersRepository.swift */; };
+		1A9316012A1E38630099BA04 /* NewPaymentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9316002A1E38630099BA04 /* NewPaymentResponse.swift */; };
+		1A9316032A1E38C20099BA04 /* HMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9316022A1E38C20099BA04 /* HMac.swift */; };
+		8E34523153E2D98E8B50A512 /* Pods_monri_ios_vanilla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E8549277BEBCED1395AFAF /* Pods_monri_ios_vanilla.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,12 @@
 		1A9315F22A1E292A0099BA04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A9315F52A1E292A0099BA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A9315F72A1E292A0099BA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9315FE2A1E38420099BA04 /* OrdersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersRepository.swift; sourceTree = "<group>"; };
+		1A9316002A1E38630099BA04 /* NewPaymentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPaymentResponse.swift; sourceTree = "<group>"; };
+		1A9316022A1E38C20099BA04 /* HMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMac.swift; sourceTree = "<group>"; };
+		2B5F3EDDF722E77E9F7A6FF1 /* Pods-monri-ios-vanilla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monri-ios-vanilla.debug.xcconfig"; path = "Target Support Files/Pods-monri-ios-vanilla/Pods-monri-ios-vanilla.debug.xcconfig"; sourceTree = "<group>"; };
+		991AA10887282B9419843308 /* Pods-monri-ios-vanilla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monri-ios-vanilla.release.xcconfig"; path = "Target Support Files/Pods-monri-ios-vanilla/Pods-monri-ios-vanilla.release.xcconfig"; sourceTree = "<group>"; };
+		F0E8549277BEBCED1395AFAF /* Pods_monri_ios_vanilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_monri_ios_vanilla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E34523153E2D98E8B50A512 /* Pods_monri_ios_vanilla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				1A9315E82A1E29280099BA04 /* monri-ios-vanilla */,
 				1A9315E72A1E29280099BA04 /* Products */,
+				DA25C67E5782526FE10DDB2C /* Pods */,
+				6D7DD2246ABC9777050DF8EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +76,28 @@
 				1A9315F22A1E292A0099BA04 /* Assets.xcassets */,
 				1A9315F42A1E292A0099BA04 /* LaunchScreen.storyboard */,
 				1A9315F72A1E292A0099BA04 /* Info.plist */,
+				1A9315FE2A1E38420099BA04 /* OrdersRepository.swift */,
+				1A9316002A1E38630099BA04 /* NewPaymentResponse.swift */,
+				1A9316022A1E38C20099BA04 /* HMac.swift */,
 			);
 			path = "monri-ios-vanilla";
+			sourceTree = "<group>";
+		};
+		6D7DD2246ABC9777050DF8EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E8549277BEBCED1395AFAF /* Pods_monri_ios_vanilla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA25C67E5782526FE10DDB2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B5F3EDDF722E77E9F7A6FF1 /* Pods-monri-ios-vanilla.debug.xcconfig */,
+				991AA10887282B9419843308 /* Pods-monri-ios-vanilla.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A9315FA2A1E292A0099BA04 /* Build configuration list for PBXNativeTarget "monri-ios-vanilla" */;
 			buildPhases = (
+				6A576A871B6A80007390F5CD /* [CP] Check Pods Manifest.lock */,
 				1A9315E22A1E29280099BA04 /* Sources */,
 				1A9315E32A1E29280099BA04 /* Frameworks */,
 				1A9315E42A1E29280099BA04 /* Resources */,
+				7F3A9EA6A2021E84EF86CE7C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +168,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A576A871B6A80007390F5CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-monri-ios-vanilla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F3A9EA6A2021E84EF86CE7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-monri-ios-vanilla/Pods-monri-ios-vanilla-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-monri-ios-vanilla/Pods-monri-ios-vanilla-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-monri-ios-vanilla/Pods-monri-ios-vanilla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A9315E22A1E29280099BA04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9316032A1E38C20099BA04 /* HMac.swift in Sources */,
+				1A9316012A1E38630099BA04 /* NewPaymentResponse.swift in Sources */,
+				1A9315FF2A1E38420099BA04 /* OrdersRepository.swift in Sources */,
 				1A9315EE2A1E29280099BA04 /* ViewController.swift in Sources */,
 				1A9315EA2A1E29280099BA04 /* AppDelegate.swift in Sources */,
 				1A9315EC2A1E29280099BA04 /* SceneDelegate.swift in Sources */,
@@ -282,6 +362,7 @@
 		};
 		1A9315FB2A1E292A0099BA04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5F3EDDF722E77E9F7A6FF1 /* Pods-monri-ios-vanilla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +391,7 @@
 		};
 		1A9315FC2A1E292A0099BA04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991AA10887282B9419843308 /* Pods-monri-ios-vanilla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
