@@ -219,7 +219,7 @@
 		0CAD38573C236C470C030B69EBDE6B36 /* MerchantCustomers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MerchantCustomers.swift; path = Monri/Classes/MerchantCustomers.swift; sourceTree = "<group>"; };
 		107DBBEE5B317CA9293CF17A6F06CC56 /* ConfirmPaymentParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmPaymentParams.swift; path = Monri/Classes/ConfirmPaymentParams.swift; sourceTree = "<group>"; };
 		11191D4036755CF473C5C067A2B2BE56 /* ValidationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationResult.swift; path = Monri/Classes/ValidationResult.swift; sourceTree = "<group>"; };
-		1215C192EABF5B497257CF3D171A9ECA /* Caishen */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Caishen; path = Caishen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1215C192EABF5B497257CF3D171A9ECA /* Caishen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Caishen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		131472C132D86B885DC45A3969F8AA36 /* ActionRequiredFlowImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionRequiredFlowImpl.swift; path = Monri/Classes/ActionRequiredFlowImpl.swift; sourceTree = "<group>"; };
 		13FD314D738C05DAC3C1C70E46CE0633 /* CardTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTextField.swift; path = Pod/Classes/UI/CardTextField.swift; sourceTree = "<group>"; };
 		141C7F4ACFB00D58AC0E639E0142AE3C /* Caishen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Caishen.release.xcconfig; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 		316F112B2436C476EE3E507F461BB03E /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		31E6A46066B76902257AD59BC6487660 /* Discover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Discover.swift; path = "Pod/Classes/Cards/Default Card Types/Discover.swift"; sourceTree = "<group>"; };
 		331CD41C4D199CCD7B44F1516A644E15 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		35BAAEDE5AC8C2F0AC430BF23B8D24A0 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Pod/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		35BAAEDE5AC8C2F0AC430BF23B8D24A0 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Pod/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
 		36FF40353D7424F53E5E66366A3EDC51 /* CustomerPaymentMethodResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerPaymentMethodResponse.swift; path = Monri/Classes/CustomerPaymentMethodResponse.swift; sourceTree = "<group>"; };
 		37295A7D7BC419B275342DFD7BE4D3E0 /* CVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVC.swift; path = Pod/Classes/Cards/CVC.swift; sourceTree = "<group>"; };
 		38ADC9CD5DE4E232B3C43ACAAA750E19 /* Customer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = Monri/Classes/Customer.swift; sourceTree = "<group>"; };
@@ -267,8 +267,8 @@
 		57EDB413A3A886A32978920CCF4F0D0E /* Caishen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Caishen-umbrella.h"; sourceTree = "<group>"; };
 		59FC3D4E3D0176B5FE9D2C16DFDEFAB2 /* ConfirmPaymentResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmPaymentResult.swift; path = Monri/Classes/ConfirmPaymentResult.swift; sourceTree = "<group>"; };
 		5A19A9D52AB6475E3CE1E34BF8FF9390 /* SavedCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SavedCard.swift; path = Monri/Classes/SavedCard.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E3D4D70E3B009E2117028EB19EE55AD /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = Pod/Resources/de.lproj; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3D4D70E3B009E2117028EB19EE55AD /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = Pod/Resources/de.lproj; sourceTree = "<group>"; };
 		620A331DC2197D42C4708CA3A9AF4DF3 /* Caishen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Caishen.debug.xcconfig; sourceTree = "<group>"; };
 		624EFE899A4CB0DEC52F1B62CBDD7BA6 /* CardTextField+CardInfoTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CardTextField+CardInfoTextFieldDelegate.swift"; path = "Pod/Classes/UI/CardTextField+CardInfoTextFieldDelegate.swift"; sourceTree = "<group>"; };
 		675DAAAAE3C222C125A4AD4FDBD49BF6 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
@@ -309,7 +309,7 @@
 		9730A607A8C048B7C671508321FF2476 /* Monri-Monri */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Monri-Monri"; path = Monri.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F945E7A975EB58A49C1929E1D7420A /* MonriFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonriFactory.swift; path = Monri/Classes/MonriFactory.swift; sourceTree = "<group>"; };
 		99BC2EB78F1D0B553BDF66BA42A160C8 /* Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localization.swift; path = Pod/Classes/Localization.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E31EE6D6B61C31FFCEBF424DDE8D571 /* Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Pod/Classes/Cards/Card.swift; sourceTree = "<group>"; };
 		9E74C7A43210FFC9B16939F9EEBBDB8B /* ResourceBundle-Monri-Monri-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Monri-Monri-Info.plist"; sourceTree = "<group>"; };
 		9EA68CDD24AAC6098C59BDE7878DF439 /* JCB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCB.swift; path = "Pod/Classes/Cards/Default Card Types/JCB.swift"; sourceTree = "<group>"; };
@@ -370,7 +370,7 @@
 		EA32792BE29DB6FA5CDDB3AFE25838F8 /* ConfirmPaymentResponseCallback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmPaymentResponseCallback.swift; path = Monri/Classes/ConfirmPaymentResponseCallback.swift; sourceTree = "<group>"; };
 		EA7BF1133D4E54C651ABF2318C4D5788 /* PaymentMethodParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethodParams.swift; path = Monri/Classes/PaymentMethodParams.swift; sourceTree = "<group>"; };
 		EAEE32962C49FB3557C2CDEC5790E464 /* TokenCallback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenCallback.swift; path = Monri/Classes/TokenCallback.swift; sourceTree = "<group>"; };
-		EE990415E9F077FAEBBD76CB6FF89FBD /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Pod/Resources/en.lproj; sourceTree = "<group>"; };
+		EE990415E9F077FAEBBD76CB6FF89FBD /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Pod/Resources/en.lproj; sourceTree = "<group>"; };
 		EF56299668A601A3DAF3C54CB5EA62FD /* ConfirmPaymentError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmPaymentError.swift; path = Monri/Classes/ConfirmPaymentError.swift; sourceTree = "<group>"; };
 		F00E83CEBA3AE390ED9EDC7988365688 /* Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Monri/Classes/Card.swift; sourceTree = "<group>"; };
 		F013D43249D317DC394D4940820A5DAB /* AmericanExpress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AmericanExpress.swift; path = "Pod/Classes/Cards/Default Card Types/AmericanExpress.swift"; sourceTree = "<group>"; };
@@ -447,15 +447,14 @@
 				FE3FE2664968F11BDF6C87A44FFA197D /* Validation.swift */,
 				78F433F491A12C7D31466D4E273BAC62 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		23FA12EEAC0EE9C5F9DE7EDD96B24DA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				1215C192EABF5B497257CF3D171A9ECA /* Caishen */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				1215C192EABF5B497257CF3D171A9ECA /* Caishen.framework */,
 				6821D47C12B5C68E0548421721B3B692 /* Monri */,
 				9730A607A8C048B7C671508321FF2476 /* Monri-Monri */,
 				FEF7AC36C56F3EE33399882642406223 /* Pods-monri-ios-vanilla */,
@@ -546,7 +545,6 @@
 				2DA8285A360F92A4C28C1A097A21AA40 /* Resources */,
 				B523D2EEB86A23F9EA3C8B5DB7B045F6 /* Support Files */,
 			);
-			name = Monri;
 			path = Monri;
 			sourceTree = "<group>";
 		};
@@ -601,7 +599,6 @@
 				D77FF8B5520CAA627AAB630C5C093C9E /* Resources */,
 				DBF31340996F9300D65833F3619DEA0E /* Support Files */,
 			);
-			name = Caishen;
 			path = Caishen;
 			sourceTree = "<group>";
 		};
@@ -836,7 +833,7 @@
 			);
 			name = Caishen;
 			productName = Caishen;
-			productReference = 1215C192EABF5B497257CF3D171A9ECA /* Caishen */;
+			productReference = 1215C192EABF5B497257CF3D171A9ECA /* Caishen.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -854,7 +851,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1230,7 +1227,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Caishen/Caishen-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Caishen/Caishen-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1362,7 +1359,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Caishen/Caishen-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Caishen/Caishen-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1396,7 +1393,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1542,7 +1539,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

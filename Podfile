@@ -7,5 +7,6 @@ target 'monri-ios-vanilla' do
 
   # Pods for monri-ios-vanilla
   pod 'Monri'
+  pod 'Alamofire'
 
 end
